@@ -1,0 +1,80 @@
+/* Universal Box Sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .profile__image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Set body font, line height, and base styles */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fff;
+
+  }
+  
+  /* Remove text decoration and list styles */
+  a, a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Define consistent table behavior */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Set default for forms */
+  input, select, textarea, button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+  }
+  
+  /* Reset button styles */
+  button {
+
+    cursor: pointer;
+  }
+  
+  /* Reset default fieldset border */
+  fieldset {
+    border: none;
+  }
+  
+  /* Remove appearance of form controls */
+  input, select, textarea {
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  /* Normalize image behavior */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  /* Remove any default background on buttons and inputs */
+  input, textarea, select {
+    background: transparent;
+  }
+  

@@ -1,0 +1,99 @@
+@import './reset.css';
+@import './rootstyle.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main {
+display: flex;
+justify-content: flex-start;
+}
+main .main__page-left{
+    background-color: var(--left-main-bg);
+    min-height: 100vh;
+    width: 35%;
+    text-align: center;
+}
+.main__page-right{
+    flex-grow: 1;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 15px;
+}
+.header .logo img{
+    width: 40px;
+    height: 40px;
+}
+.logo-name h3, .logo-name h4{
+  color: var( --color-white);
+}
+.logo-name h3{
+    font-size: 24px;
+}
+.main_left-list{
+    margin:50px auto;
+    width: 60%;
+}
+.main_left-list li{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid red;
+}
+.main_left-list li a, .main_left-list li i{
+    color: var(--color-white);
+    display: inline-block;
+
+}
+.main_left-list li i{
+    font-style: bold;
+    font-size: 32px;
+
+}
+.main_left-list li a{
+    font-size: 16px;
+    padding: 10px;
+    font-family: var(--font-family-poppins);
+    font-weight: 900;
+}
+.main_left-list li:nth-child(8){
+    margin-top: 100px;
+}
+
+.right-header{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    border: 1px solid red;
+    padding: 20px;
+}
+.search-container {
+    position: relative;
+  }
+  
+  #search {
+    padding-left: 30px; /* Space for the icon */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: var(--font-family-poppins);
+  }
+  .profile-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-family-poppins);
+  }
+  .rounded-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+
